@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.df-content {
+  width: 60vw;
+  padding: 0 20vw;
+}
+
+.df-footer {
+  display: flex;
+  justify-content: center;
+}
+.df-jfr {
+  display: flex;
+  justify-content: center;
+  margin-left:  auto;
+  margin-top: 15px;
+}
+
+.df-footer {
+  margin-top: 60px;
+}

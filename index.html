@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>新增成绩发布审核</title>
+  <link rel="stylesheet" href="./plugins/elementui/index.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/searchbar.css">
+</head>
+
+<body>
+  <header>11111</header>
+  <div id="df">
+    <div class="df-container">
+      <search-bar></search-bar>
+      <df-container></df-container>
+      <div class="df-footer">
+        <el-button type="danger">异常上报</el-button>
+        <el-button type="primary">确认发布</el-button>
+      </div>
+    </div>
+  </div>
+  <script src="./plugins/vue.js"></script>
+  <script src="./plugins/elementui/index.js"></script>
+  <script src="./plugins/axios.min.js"></script>
+  <script src="./plugins/qs.min.js"></script>
+  <script src="./src/utils/index.js"></script>
+  <script src="./src/components/search_bar.js"></script>
+  <script src="./src/pages/df_container.js"></script>
+  <script>
+    Vue.component('search-bar', search_bar)
+    Vue.component('df-container', df_container)
+    new Vue({
+      el: '#df',
+      data() {
+        return {
+         
+         
+        }
+      },
+      methods: {
+        
+      }
+    })
+  </script>
+</body>
+
+</html>
